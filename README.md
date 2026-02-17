@@ -21,7 +21,6 @@ Integrated Wazuh EDR and Splunk SIEM to monitor system integrity and practice th
 
 ## 📁 Investigation Logs
 * [**Baseline Analysis:** Identifying Noise & CIS Compliance](./Baseline_Analysis.md)
-* [**Credential Security:** Monitoring Sudo & Root Access](./images/image_b4d467.png) (Direct Image Link)
 
 ## 🛠️ Tech Stack
 * **EDR:** Wazuh
