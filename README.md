@@ -15,6 +15,15 @@ Architect a functional security monitoring pipeline on a single host to observe 
 
 ### 1. Agent Deployment
 Deployed the Wazuh agent via CLI and forced communication through the loopback interface to maintain a self-contained environment.
-```bash
-# Example agent registration via loopback
-sudo /var/ossec/bin/agent-auth -m 127.0.0.1
+
+# 🛡️ Ubuntu SOC Home Lab
+Integrated Wazuh EDR and Splunk SIEM to monitor system integrity and practice threat hunting.
+
+## 📁 Investigation Logs
+* [**Baseline Analysis:** Identifying Noise & CIS Compliance](./Baseline_Analysis.md)
+* [**Credential Security:** Monitoring Sudo & Root Access](./images/image_b4d467.png) (Direct Image Link)
+
+## 🛠️ Tech Stack
+* **EDR:** Wazuh
+* **SIEM:** Splunk Enterprise
+* **OS:** Ubuntu
