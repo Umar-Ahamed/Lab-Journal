@@ -1,19 +1,20 @@
-#Local SOC Lab: Wazuh EDR & Splunk SIEM Integration
-Objective
-To architect a functional Security Operations Center (SOC) environment on a single Ubuntu instance to practice threat hunting and incident response.
+# Local SOC Lab: Wazuh EDR & Splunk SIEM Integration
 
-Technologies Used
-Ubuntu 22.04/24.04 (Host OS)
+A streamlined, single-node Security Operations Center (SOC) environment built on **Ubuntu** to facilitate hands-on practice in **threat hunting**, **telemetry analysis**, and **incident response**.
 
-Wazuh (Endpoint Detection & Response)
+## 🎯 Objective
+Architect a functional security monitoring pipeline on a single host to observe real-time attack patterns and validate defensive configurations.
 
-Splunk Enterprise (SIEM)
+## 🛠 Technologies Used
+*   **Host OS:** [Ubuntu 22.04/24.04 LTS](https://ubuntu.com)
+*   **EDR:** [Wazuh](https://documentation.wazuh.com) (Endpoint Detection & Response)
+*   **SIEM:** [Splunk Enterprise](https://www.splunk.com) (Log Aggregation & Visualization)
+*   **Automation:** Bash (Attack Simulation & Logistics)
 
-Bash (Automation & Attack Simulation)
+## 🚀 Implementation Steps
 
-Implementation Steps
-Agent Deployment: Deployed Wazuh agents using CLI and configured communication via loopback (127.0.0.1).
-
-Data Pipeline: Integrated Wazuh alerts.json with Splunk using the splunk add monitor utility.
-
-Telemetry Validation: Verified log flow by simulating unauthorized sudo attempts and monitoring AppArmor blocks.
+### 1. Agent Deployment
+Deployed the Wazuh agent via CLI and forced communication through the loopback interface to maintain a self-contained environment.
+```bash
+# Example agent registration via loopback
+sudo /var/ossec/bin/agent-auth -m 127.0.0.1
