@@ -22,7 +22,7 @@ Integrated Wazuh EDR and Splunk SIEM to monitor system integrity and practice th
 ## 📁 Investigation Logs
 * [**Baseline Analysis:** Identifying Noise & CIS Compliance](./Baseline_Analysis.md)
 * [**SSH Brute Force Detection:** Troubleshooting Telemetry & SIEM Integration](./SSH_BruteForce_Detection.md)
-## 🛠️ Tech StackSSH_BruteForce_Detection.md
+## 🛠️ Tech Stack
 * **EDR:** Wazuh
 * **SIEM:** Splunk Enterprise
 * **VM:** VirtualBox
