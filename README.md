@@ -25,5 +25,6 @@ Integrated Wazuh EDR and Splunk SIEM to monitor system integrity and practice th
 ## 🛠️ Tech Stack
 * **EDR:** Wazuh
 * **SIEM:** Splunk Enterprise
+* **VM** VirtualBox
 * **OS:** Ubuntu (Guest)
 * **Main OS** Windows 11 pro (Host)
